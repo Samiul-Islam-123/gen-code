@@ -1,0 +1,21 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.file-tree-container {
+  width: 20%;
+  background-color: #1e1e1e;
+  color: white;
+  overflow-y: auto;
+}
+
+.editor-terminal-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-terminal-container > * {
+  flex: 1;
+}
